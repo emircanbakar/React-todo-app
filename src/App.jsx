@@ -1,11 +1,11 @@
-
+import Todo from "./components/Todo";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl bg-gray-600 text-white">SA</h1>
+    <div className="bg-stone-900 grid py-4 min-h-screen">
+      <Todo />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
